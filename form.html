@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CONTACT FORM</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+  <div class="header">
+    <div class="image">
+        <img src="logo.png" style="width:150px;height:140px;">
+    </div>
+    <div class="style">
+      <h2>Vefetch Technologies</h2>
+          <p>Engross with us....</p><br>
+          <p>Drop us a message and we will contact you back shortly</p>
+          
+    </div>
+  </div>
+    <form method="post"  action="mail.php">
+      <div class="input-show">
+        <i class="material-icons">perm_identity</i>
+        <input type="text" name="Name" placeholder="Enter your name" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">my_location</i>
+        <input class="input-box" type="text" name="Location" placeholder="Enter your Location" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">subject</i>  
+        <input type="text" name="Course" placeholder="Enter the completion of course" required><br><br>
+      </div>
+      <div class="input-show">
+          <i class="material-icons">work</i>  
+        <input type="text" name="experience" placeholder="Fill the experience" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">mic</i>  
+        <input type="text" name="Languages_known_to_speak" placeholder="Languages known to speak" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">mode_edit</i> 
+        <input type="text" name="Languages_known_to_write" placeholder="Languages known to write" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">phone</i>  
+        <input type="text" name="Contact" placeholder="Mobile Number" required><br><br>
+      </div>
+      <div class="input-show">
+        <i class="material-icons">email</i>  
+        <input type="email" name="email" placeholder="Enter your email-ID"  required><br><br>
+      </div>
+      <div >
+         <input class="btn" type= "submit" name="submit" value="submit">
+      </div>
+
+    </form>
+
+</div>
+</body>
+</html>
